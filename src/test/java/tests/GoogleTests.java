@@ -32,5 +32,6 @@ public class GoogleTests
 	public void teardown()
 	{
 		driver.quit();
+		System.out.println("hello");
 	}
 }
